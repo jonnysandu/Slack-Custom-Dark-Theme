@@ -17,7 +17,7 @@ Note that if your slack client updates, you'll need to do this process again for
 ```
 document.addEventListener('DOMContentLoaded', function () {
     $.ajax({
-        url: 'https://raw.githubusercontent.com/jonnysandu/Slack-Custom-Dark-Theme/master/dark.css',
+        url: 'https://raw.githubusercontent.com/jonnysandu/Slack-Custom-Dark-Theme/master/dark_theme.css',
         success: function (css) {
             $("<style></style>").appendTo('head').html(css);
         }
