@@ -36,4 +36,4 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 ### What the Dark Theme + Custom Slack theme colors look like
-![dark_theme]()
+![dark_theme](https://github.com/jonnysandu/Slack-Custom-Dark-Theme/blob/master/dark-theme-preview.png)
