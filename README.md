@@ -22,6 +22,9 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 ```
 
+   * If you want to use your own styles, adjust the line 
+`url: 'https://raw.githubusercontent.com/jonnysandu/Slack-Custom-Dark-Theme/master/dark_theme.css'` to use your own css file. I recommend `https://gist.github.com/` as an easy quick way to set that up.
+
 5) Open Slack, you should see the proposed changes.
 
 
