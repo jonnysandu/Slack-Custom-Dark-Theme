@@ -1,17 +1,16 @@
 ![logo](https://github.com/jonnysandu/Slack-Custom-Dark-Theme/blob/master/slack-logo-bw.png)
 
+***Note that these changes will have to be reapplied every time Slack updates. If you're interested in a script I wrote to automatically apply changes on update, message me.**
+
 ## Adding the Dark Theme
 
-1) Make sure Slack is closed
-2) Find Slack's `ssb-interop.js` file
-    * For PC users, go to your version (your own username and current app version) of 
-`C:\Users\username\AppData\Local\slack\app-3.1.0\resources\app.asar.unpacked\src\static`
-Note that if your slack client updates, you'll need to do this process again for the updated version.
-    * For Linux users, using the slack desktop (beta) navigate to `/lib/slack/resources/app.asar.unpacked/src/static`
-    * Mac users, go to your version of 
-`/Applications/Slack.app/Contents/Resources/app.asar.unpacked/src/static`
-3) Open the file `ssb-interop.js` with your editor of choice.
-4) Add all of the code below to the very end of file `ssb-interop.js` and save:
+1) Close the Slack Application
+2) Find the file named `ssb-interop.js`
+    * For PC, go to your version (your own username and current app version) of `C:\Users\juanito\AppData\Local\slack\app-3.1.0\resources\app.asar.unpacked\src\static`
+    * For Linux, goto `/lib/slack/resources/app.asar.unpacked/src/static`
+    * For Mac, go to `/Applications/Slack.app/Contents/Resources/app.asar.unpacked/src/static`
+3) Open `ssb-interop.js` with your editor of choice
+4) Add all of the code below to the very end of `ssb-interop.js`, make sure to save:
 ```
 document.addEventListener('DOMContentLoaded', function () {
     $.ajax({
@@ -22,9 +21,18 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 });
 ```
-5) Open Slack
 
-### Additional theme customization through Slack's theme editor
+5) Open Slack, you should see the proposed changes.
+
+
+_Tip: Open slack in developer mode on Mac so you can use developer tools like "inspect element"._
+
+`export SLACK_DEVELOPER_MENU=true; open -a /Applications/Slack.app`
+
+
+### Slacks own custom theme editor
+
+To match the existing `dark_theme.css` styles provided, I personally use these custom colors. Feel free to change this to your own preferences. 
 
 1) In Slack, click on Preferences
 2) Click on sidebar
@@ -33,5 +41,5 @@ document.addEventListener('DOMContentLoaded', function () {
 `#23282d,#191e23,#0073AA,#FFFFFF,#111111,#EEEEEE,#46b450,#D54E21`
 
 
-### What the Dark Theme + Custom Slack theme colors look like
+### Dark Theme + Slack theme customizations
 ![dark_theme](https://github.com/jonnysandu/Slack-Custom-Dark-Theme/blob/master/dark-theme-preview.png)
