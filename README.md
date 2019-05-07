@@ -1,7 +1,5 @@
 ![logo](https://github.com/jonnysandu/Slack-Custom-Dark-Theme/blob/master/slack-logo-bw.png)
 
-# Slack-Custom-Dark-Theme
-
 ## Adding the Dark Theme
 
 1) Make sure Slack is closed
