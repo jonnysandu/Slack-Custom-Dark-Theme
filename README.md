@@ -1,6 +1,6 @@
 ![logo](https://github.com/jonnysandu/Slack-Custom-Dark-Theme/blob/master/slack-logo-bw.png)
 
-***Note that these changes will have to be reapplied every time Slack updates. If you're interested in a script I wrote to automatically apply changes on update, message me.**
+Tired of that eye melting white background when using the Slack app? Cry no more child, cry no more.
 
 ## Adding the Dark Theme
 
@@ -43,3 +43,5 @@ To match the existing `dark_theme.css` styles provided, I personally use these c
 
 ### Dark Theme + Slack theme customizations
 ![dark_theme](https://github.com/jonnysandu/Slack-Custom-Dark-Theme/blob/master/dark-theme-preview.png)
+
+***Note that these changes will have to be reapplied every time Slack updates. If you're interested in a script I wrote to automatically apply changes on update, message me.**
