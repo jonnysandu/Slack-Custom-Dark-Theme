@@ -47,4 +47,9 @@ To match the existing `dark_theme.css` styles provided, I personally use these c
 ### Dark Theme + Slack theme customizations
 ![dark_theme](https://github.com/jonnysandu/Slack-Custom-Dark-Theme/blob/master/dark-theme-preview.png)
 
+#### Credits
+
+Ty laCour for this idea
+https://github.com/laCour/slack-night-mode/issues/73#issuecomment-287467332
+
 ***Note that these changes will have to be reapplied every time Slack updates. If you're interested in a script I wrote to automatically apply changes on update, message me.**
