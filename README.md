@@ -6,8 +6,8 @@ Tired of that eye melting white background when using the Slack app? Cry no more
 
 1) Close the Slack Application
 2) Find the file named `ssb-interop.js`
-    * For PC, go to your version (your own username and current app version) of `C:\Users\juanito\AppData\Local\slack\app-3.1.0\resources\app.asar.unpacked\src\static`
-    * For Linux, goto `/lib/slack/resources/app.asar.unpacked/src/static`
+    * For PC, go to `C:\Users\juanito\AppData\Local\slack\app-3.1.0\resources\app.asar.unpacked\src\static` (use your username and version)
+    * For Linux, go to `/lib/slack/resources/app.asar.unpacked/src/static`
     * For Mac, go to `/Applications/Slack.app/Contents/Resources/app.asar.unpacked/src/static`
 3) Open `ssb-interop.js` with your editor of choice
 4) Add all of the code below to the very end of `ssb-interop.js`, make sure to save:
