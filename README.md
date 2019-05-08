@@ -52,4 +52,7 @@ To match the existing `dark_theme.css` styles provided, I personally use these c
 Ty laCour for this idea
 https://github.com/laCour/slack-night-mode/issues/73#issuecomment-287467332
 
+Ty Dane Atkins for style help
+https://github.com/daneatkins
+
 ***Note that these changes will have to be reapplied every time Slack updates. If you're interested in a script I wrote to automatically apply changes on update, message me.**
